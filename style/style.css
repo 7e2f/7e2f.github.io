@@ -1,0 +1,167 @@
+html, body{
+    margin: 1;
+    padding: 0;
+    background: url("/style/bg.png") repeat;
+    background-attachment: fixed;
+    background-color: #1b1b1b;
+    color: #FFFFFF;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'hack';
+    src: url('/style/hack.ttf') format('truetype');
+}
+
+* {
+    font-family: 'hack';
+    font-weight: 100;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+    margin: 1px;
+}
+
+a:link,a:visited {
+    color: #7f7f7f;
+}
+
+a:hover,a:active {
+    color: #ffffff;
+}
+
+#container {
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 516px;
+    height: auto;
+    /*background: #ff0000;*/
+}
+
+.column {
+    position: relative;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0px 2px 0px 2px;
+    float: left;
+    height: auto;
+    /*background: #00ff00;*/
+}
+
+.col-1 {
+    width: 512;
+    /*width: 516;*/
+}
+
+.col-2 {
+    width: 254;
+    /*width: 258;*/
+}
+
+.col-3 {
+    width: 168;
+    /*width: 172;*/
+}
+
+.col-4 {
+    width: 125;
+    /*width: 129;*/
+}
+
+.box {
+  box-shadow: 1px 1px 10px 0px #000;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  margin: 0px 0px 4px 0px;
+  padding: 8px 8px 8px 8px;
+  background: repeat;
+  background-size: 550px 250px;
+  background-attachment: fixed;
+  background-image: url("/style/fg.png");
+  background-color: #1b1b1b;
+  border: 2px solid #1f1f1f;
+  outline:0;
+  /*width: 100%;*/
+
+}
+
+.box:hover {
+    border: 2px solid #3f3f3f;
+}
+
+.box:focus {
+  border: 2px solid #3f3f3f;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+h1 {
+    padding-bottom: 0;
+    margin-bottom: 2;
+    margin-top: 0;
+}
+
+.blue {
+    color: #ffffff;
+    padding: 0;
+}
+
+br {
+    margin: 0px;
+}
+
+input {
+    outline: 0;
+    display: inline;
+    background: none;
+    border-width: 0px;
+    border: none;
+    color: #bcbcbc;
+    width: 100%;
+}
+form {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+#pageview {
+    box-shadow: 1px 1px 10px 0px #000;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    margin: 4px 2px 4px 2px;
+    padding: 8px 8px 8px 8px;
+    background: repeat;
+    background-size: 550px 250px;
+    background-attachment: fixed;
+    background-image: url("/style/fg.png");
+    background-color: #1b1b1b;
+    border: 2px solid #1f1f1f;
+}
+
+.btn-active {
+    border: 2px solid #3f3f3f;
+}
+
+.btn-active:hover {
+    border: 2px solid #1f1f1f;
+}
