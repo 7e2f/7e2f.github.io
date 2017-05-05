@@ -2,32 +2,47 @@
 <html>
 
 <head>
+
   <title>startpage</title>
+
   <link rel="stylesheet" href="/style/style.css" type="text/css" />
-  <script type="text/javascript" src="/js/jquery-1.5.min.js"></script>
-  <script type="text/javascript" src="/js/boxxy.js"></script>
   <link rel="shortcut icon" href="/style/icon.png" type="image/png" />
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+
+  <script type="text/javascript" src="/js/jquery-1.5.min.js"></script>
+  <script type="text/javascript" src="/js/boxxy.js"></script>
+
   <script>
-    function formReset() {
-      document.getElementById("searchForm").reset();
-    }
+    function formReset() { document.getElementById("searchBox").reset(); };
+    function showAll() { $('ul').slideDown(80); };
+    function hideAll() { $('ul').slideUp(80); };
   </script>
+  <!-- <audio autoplay loop>
+    <source src="/style/spell.mp3" type="audio/mpeg">
+  </audio> -->
 </head>
 
 <body>
   <br><br>
   <div id="container">
-    <div class="column col-1">
-      <form autocomplete="off" id="searchForm" target="_blank"
-        action="https://google.com/search" onclick="formReset()">
-        <input class="box inputbox" name="q" type="text" style="width:100%" autofocus>
+    <div class="column col-5">
+      <form autocomplete="off" id="searchBox" target="_blank"
+        action="https://google.com/search" ondblclick="formReset()">
+        <input class="box" type="text" autofocus>
       </form>
+    </div>
+    <div class="column col-6">
+      <input type="button" class="box" value="show" onclick="showAll()">
+    </div>
+    <div class="column col-6">
+      <input type="button" class="box" value="hide" onclick="hideAll()">
     </div>
     <boxview>
     </boxview>
   </div>
+
 </body>
 
 </html>

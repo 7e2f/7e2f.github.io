@@ -8,10 +8,25 @@
     <link rel="shortcut icon" href="/style/icon.png" type="image/png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <script>
+      function showAll() { $('ul').slideDown(80); }
+      function hideAll() { $('ul').slideUp(80); }
+    </script>
   </head>
   <body>
     <br><br>
     <div id="container">
+      <div class="column col-5">
+        <div class="box">
+          <br>
+        </div>
+      </div>
+      <div class="column col-6">
+        <input type="button" class="box" value="show" onclick="showAll()">
+      </div>
+      <div class="column col-6">
+        <input type="button" class="box" value="hide" onclick="hideAll()">
+      </div>
       <boxview>
       </boxview>
     </div>
