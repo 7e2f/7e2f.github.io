@@ -1,0 +1,53 @@
+<!DOCTYPE=html>
+<html>
+<head>
+    <title>lesspass</title>
+    <link rel="stylesheet" href="/style/style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="/style/icon.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+<br><br>
+<div id="container">
+  <div class="column col-3">
+    <input class="box" id="site" name="site" type="text" placeholder="site" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-3">
+    <input class="box" id="user" name="user" type="text" placeholder="username" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-3">
+    <input class="box" id="pass" name="pass" type="text" placeholder="master password" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-6">
+    <input type="button" class="box box-active" value="a-z">
+  </div>
+  <div class="column col-6">
+    <input type="button" class="box box-active" value="A-Z">
+  </div>
+  <div class="column col-6">
+    <input type="button" class="box box-active" value="0-9">
+  </div>
+  <div class="column col-6">
+    <input type="button" class="box box-active" value="%!@">
+  </div>
+  <div class="column col-6">
+    <input class="box" id="chars" name="chars" type="text" placeholder="length [16]" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-6">
+    <input class="box" id="count" name="count" type="text" placeholder="counter [1]" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-2">
+    <input class="box" id="generated" name="generated" type="text" placeholder="generated password" autocorrect="off" autocapitalize="none" autocomplete="off">
+  </div>
+  <div class="column col-6">
+    <input type="button" class="box" value="copy" onclick="copy()">
+  </div>
+  <div class="column col-3">
+    <input type="button" value="generate" class="btn box">
+  </div>
+</div>
+</body>
+</html>

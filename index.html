@@ -19,9 +19,6 @@
     function showAll() { $('ul').slideDown(80); };
     function hideAll() { $('ul').slideUp(80); };
   </script>
-  <!-- <audio autoplay loop>
-    <source src="/style/spell.mp3" type="audio/mpeg">
-  </audio> -->
 </head>
 
 <body>
@@ -30,7 +27,7 @@
     <div class="column col-5">
       <form autocomplete="off" id="searchBox" target="_blank"
         action="https://google.com/search" ondblclick="formReset()">
-        <input class="box" type="text" autofocus>
+        <input class="box" name="q" type="text" placeholder="search" autofocus>
       </form>
     </div>
     <div class="column col-6">
