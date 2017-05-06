@@ -16,13 +16,13 @@
 @ http://dhgate.com | dhgate
 @ http://crateandbarrel.com | c&b
 @ https://kittensplaypen.net | kpp
-# test
+# internal
 @ reader/ | reader
 @ anime/ | anime
 @ lesspass/ | lesspass
-@ lesspass-slim | lesspass-slim
-@ lesspass-stacked | lesspass-stacked
-@ 3.html | three
+@ three/ | three
+@ vim/ | vim
+@ mpd/ | mpd
 
 & 3 | column II
 # social

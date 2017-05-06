@@ -4,3 +4,6 @@
 # files
 @ reader.html?page=boxxy | boxxy
 @ reader.html?page=css | css
+@ reader.html?page=scrollbars | scrollbars
+@ reader.html?page=null | null
+@ reader.html?page=ba | ba
