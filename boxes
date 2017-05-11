@@ -12,11 +12,11 @@
 @ https://www.ourlounge.com | ourlounge
 
 # shopping
-@ http://paychekplus.com | account
+@ http://paychekplus.com | payroll
 @ https://amazon.com | amazon
-@ https://wish.com | wish
-@ http://dhgate.com | dhgate
-@ http://crateandbarrel.com | c&b
+-@ https://wish.com | wish
+-@ http://dhgate.com | dhgate
+-@ http://crateandbarrel.com | c&b
 @ https://kittensplaypen.net | kpp
 # internal
 @ reader/ | reader
@@ -35,6 +35,11 @@
 @ https://www.reddit.com/r/2007scape | 2007scape
 @ https://www.reddit.com/r/opensource | opensource
 @ https://www.reddit.com/r/linux | linux
+# arch
+@ https://www.archlinux.org/ | home
+@ https://aur.archlinux.org/packages/ | aur
+@ https://bbs.archlinux.org/ | forum
+@ https://wiki.archlinux.org/ | wiki
 
 & 3 | column III
 # television

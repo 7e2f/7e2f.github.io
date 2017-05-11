@@ -48,6 +48,10 @@ a:hover,a:active { color: var(--link-active); }
   height: auto;
 }
 
+@media only screen and (max-width: 592px) {
+  #container { width: 294px; }
+}
+
 /* columns ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .column {
   position: relative;
@@ -64,6 +68,10 @@ a:hover,a:active { color: var(--link-active); }
 .col-4 { width: 143; } /* 4:1 column */
 .col-5 { width: 388; } /* 3:2 column */
 .col-6 { width: 094; } /* 6:1 column */
+
+@media only screen and (max-width: 592px) {
+  [class*="col-"] { width: 290; }
+}
 
 /* boxes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .box {
