@@ -1,15 +1,18 @@
 & 3 | column I
 # etc
 @ https://lesspass.com | lesspass
-@ https://libraries.io | libraries
-@ https://regex101.com | regex101
-@ http://immortalnightmare.shivtr.com | XXX
 @ https://ting.com | ting
 @ https://godaddy.com | godaddy
 @ http://github.com | github
 @ https://digitalocean.com | digitalocean
-@ http://prismjs.com/ | prism
+-@ http://prismjs.com/ | prism
 @ https://www.ourlounge.com | ourlounge
+
+# tools
+@ https://regex101.com | regex101
+@ http://unminify.com/ | unminify
+@ https://libraries.io | libraries
+
 
 # shopping
 @ http://paychekplus.com | payroll
@@ -31,9 +34,12 @@
 # social
 @ https://gmail.com | gmail
 @ https://web.telegram.org | telegram
+@ https://www.facebook.com/ | facebook
+@ https://keybase.io/ | keybase
 # reddit
 @ https://www.reddit.com/r/Guildwars2 | guildwars2
 @ https://www.reddit.com/r/2007scape | 2007scape
+@ https://www.reddit.com/r/wow/ | wow
 @ https://www.reddit.com/r/opensource | opensource
 @ https://www.reddit.com/r/linux | linux
 # arch
@@ -63,7 +69,9 @@
 @ https://www.youtube.com/user/MightyTeapot/videos | mightyteapot
 @ https://www.youtube.com/user/jupiterbroadcasting/videos | jupiter
 @ https://www.youtube.com/user/EraserGaming/videos | a friend
+@ https://www.youtube.com/user/SignsOfKelani/ | kelani
 # gw2
+@ http://immortalnightmare.shivtr.com | XXX
 @ https://www.guildwars2.com/en/ | homepage
 @ https://www.guildwars2.com/en/news/ | news
 @ https://forum-en.guildwars2.com/forum | forums
@@ -76,3 +84,5 @@
 @ https://rsbuddy.com/osbuddy | osbuddy
 # wow
 @ http://www.wowuction.com/us/whisperwind/alliance/ | auction house
+@ http://www.wowhead.com/ | wowhead
+@ https://www.reddit.com/r/wow/ | reddit
