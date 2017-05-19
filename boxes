@@ -21,6 +21,7 @@
 -@ http://dhgate.com | dhgate
 -@ http://crateandbarrel.com | c&b
 @ https://kittensplaypen.net | kpp
+
 # internal
 @ reader/ | reader
 @ anime/ | anime
@@ -29,6 +30,7 @@
 @ vim/ | vim
 @ mpd/ | mpd
 @ tg/ | telegram
+@ base/ | base
 
 & 3 | column II
 # social

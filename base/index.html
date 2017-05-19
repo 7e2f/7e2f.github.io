@@ -1,0 +1,117 @@
+<!DOCTYPE=html>
+<html>
+  <head>
+    <title>title</title>
+    <link rel="stylesheet" href="/style/style.css" type="text/css" />
+    <link rel="shortcut icon" href="/style/icon.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+
+
+    <script>
+
+    function getValueOfDigit(digit, alphabet)
+    {
+       var pos = alphabet.indexOf(digit);
+       return pos;
+    }
+
+    function convert(src, srcAlphabet, dstAlphabet)
+    {
+       var srcBase = srcAlphabet.length;
+       var dstBase = dstAlphabet.length;
+
+       var wet     = src;
+       var val     = 0;
+       var mlt     = 1;
+
+       while (wet.length > 0)
+       {
+         var digit  = wet.charAt(wet.length - 1);
+         val       += mlt * getValueOfDigit(digit, srcAlphabet);
+         wet        = wet.substring(0, wet.length - 1);
+         mlt       *= srcBase;
+       }
+
+       wet          = val;
+       var ret      = "";
+
+       while (wet >= dstBase)
+       {
+         var digitVal = wet % dstBase;
+         var digit    = dstAlphabet.charAt(digitVal);
+         ret          = digit + ret;
+         wet /= dstBase;
+       }
+
+       var digit    = dstAlphabet.charAt(wet);
+       ret          = digit + ret;
+
+       return ret;
+    }
+
+    function convertString() {
+      document.getElementById('toString').value=convert(
+        document.getElementById('fromString').value, document.getElementById('fromAlpha').value, document.getElementById('toAlpha').value
+      );
+      return false;
+    }
+
+
+
+
+    </script>
+
+  </head>
+
+  <body><br><br>
+    <div id="container">
+        <form id="base">
+          <div class="column col-1">
+            <input class="box"
+              id="fromString"
+              name="fromString"
+              type="text"
+              placeholder="input"
+              autocorrect="off"
+              autocapitalize="none"
+              autocomplete="off"
+              onInput="convertString()"
+            >
+            <input class="box"
+              id="fromAlpha"
+              name="fromAlpha"
+              type="text"
+              placeholder="input base"
+              value="0123456789"
+              autocorrect="off"
+              autocapitalize="none"
+              autocomplete="off"
+              onInput="convertString()"
+            >
+            <input class="box"
+              id="toAlpha"
+              name="toAlpha"
+              type="text"
+              placeholder="output base"
+              value="0123456789"
+              autocorrect="off"
+              autocapitalize="none"
+              autocomplete="off"
+              onInput="convertString()"
+            >
+            <input class="box"
+              id="toString"
+              name="output"
+              type="text"
+              placeholder="output"
+              autocorrect="off"
+              autocapitalize="none"
+              autocomplete="off"
+            >
+          </div>
+        </form>
+    </div>
+  </body>
+</html>
