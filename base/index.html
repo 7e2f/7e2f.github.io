@@ -11,14 +11,28 @@
 
     <script>
 
+    var alphabetSoup = { "2": "01",
+                         "4": "0123",
+                         "8": "01234567",
+                        "10": "0123456789",
+                        "16": "0123456789abcdef",
+                        "36": "0123456789abcdefghijklmnopqrstuvwxyz"};
+
+    // var res = str.toLowerCase();
+    // document.querySelector('input[name = "fromBase"]:checked').value;
+    // document.querySelector('input[name = "toBase"]:checked').value;
+
     function getValueOfDigit(digit, alphabet)
     {
        var pos = alphabet.indexOf(digit);
        return pos;
     }
 
-    function convert(src, srcAlphabet, dstAlphabet)
+    function convert(src)
     {
+       var src = src.toLowerCase();
+       var srcAlphabet = alphabetSoup[document.querySelector('input[name = "fromBase"]:checked').value];
+       var dstAlphabet = alphabetSoup[document.querySelector('input[name = "toBase"]:checked').value];
        var srcBase = srcAlphabet.length;
        var dstBase = dstAlphabet.length;
 
@@ -53,7 +67,7 @@
 
     function convertString() {
       document.getElementById('toString').value=convert(
-        document.getElementById('fromString').value, document.getElementById('fromAlpha').value, document.getElementById('toAlpha').value
+        document.getElementById('fromString').value
       );
       return false;
     }
@@ -67,51 +81,103 @@
 
   <body><br><br>
     <div id="container">
-        <form id="base">
-          <div class="column col-1">
-            <input class="box"
-              id="fromString"
-              name="fromString"
-              type="text"
-              placeholder="input"
-              autocorrect="off"
-              autocapitalize="none"
-              autocomplete="off"
-              onInput="convertString()"
-            >
-            <input class="box"
-              id="fromAlpha"
-              name="fromAlpha"
-              type="text"
-              placeholder="input base"
-              value="0123456789"
-              autocorrect="off"
-              autocapitalize="none"
-              autocomplete="off"
-              onInput="convertString()"
-            >
-            <input class="box"
-              id="toAlpha"
-              name="toAlpha"
-              type="text"
-              placeholder="output base"
-              value="0123456789"
-              autocorrect="off"
-              autocapitalize="none"
-              autocomplete="off"
-              onInput="convertString()"
-            >
-            <input class="box"
-              id="toString"
-              name="output"
-              type="text"
-              placeholder="output"
-              autocorrect="off"
-              autocapitalize="none"
-              autocomplete="off"
-            >
-          </div>
-        </form>
+      <div class="column col-1">
+        <input class="box"
+          id="fromString"
+          name="fromString"
+          type="text"
+          placeholder="input"
+          autocorrect="off"
+          autocapitalize="none"
+          autocomplete="off"
+          onInput="convertString()"
+        >
+      </div>
+      <div class="column col-6">
+        <label for="fromBase2" class="box">
+          <input type="radio" id="fromBase2" name="fromBase" value="2">
+          <span class="radio">2  &gt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="fromBase4" class="box">
+          <input type="radio" id="fromBase4" name="fromBase" value="4">
+          <span class="radio">4  &gt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="fromBase8" class="box">
+          <input type="radio" id="fromBase8" name="fromBase" value="8">
+          <span class="radio">8  &gt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="fromBase10" class="box">
+          <input type="radio" id="fromBase10" name="fromBase" value="10">
+          <span class="radio">10  &gt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="fromBase16" class="box">
+          <input type="radio" id="fromBase16" name="fromBase" value="16">
+          <span class="radio">16  &gt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="fromBase36" class="box">
+          <input type="radio" id="fromBase36" name="fromBase" value="36">
+          <span class="radio">36  &gt;</span>
+        </label>
+      </div>
+
+      <div class="column col-6">
+        <label for="toBase2" class="box">
+          <input type="radio" id="toBase2" name="toBase" value="2">
+          <span class="radio">2  &lt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="toBase4" class="box">
+          <input type="radio" id="toBase4" name="toBase" value="4">
+          <span class="radio">4  &lt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="toBase8" class="box">
+          <input type="radio" id="toBase8" name="toBase" value="8">
+          <span class="radio">8  &lt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="toBase10" class="box">
+          <input type="radio" id="toBase10" name="toBase" value="10">
+          <span class="radio">10  &lt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="toBase16" class="box">
+          <input type="radio" id="toBase16" name="toBase" value="16">
+          <span class="radio">16  &lt;</span>
+        </label>
+      </div>
+      <div class="column col-6">
+        <label for="toBase36" class="box">
+          <input type="radio" id="toBase36" name="toBase" value="36">
+          <span class="radio">36  &lt;</span>
+        </label>
+      </div>
+
+      <div class="column col-1">
+        <input class="box"
+          id="toString"
+          name="toString"
+          type="text"
+          placeholder="output"
+          autocorrect="off"
+          autocapitalize="none"
+          autocomplete="off"
+        >
+      </div>
     </div>
   </body>
 </html>

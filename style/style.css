@@ -71,6 +71,7 @@ a:hover,a:active { color: var(--link-active); }
 
 @media only screen and (max-width: 592px) {
   [class*="col-"] { width: 290; }
+  .col-6 { width: 143; }
 }
 
 /* boxes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -117,4 +118,29 @@ input {
   border: none;
   color: var(--text);
   width: 100%;
+}
+/* misc ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+label {
+    display:block;
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:5px;
+    border:1px solid #CCC;
+    cursor:pointer;
+    z-index:90;
+}
+input[type="radio"] {
+  display: none;
+  margin: 0px 0px 0px 0px;
+  /*opacity:0.011;*/
+  z-index:100;
+}
+.radio {
+  color: var(--link-normal);;
+}
+input[type="radio"]:checked ~ * {
+  color: var(--link-active);;
 }
