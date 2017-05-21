@@ -178,6 +178,35 @@
           autocomplete="off"
         >
       </div>
+
+      <div class="column col-1">
+        <input class="box"
+          id="base64input"
+          name="base64input"
+          type="text"
+          placeholder="input"
+          autocorrect="off"
+          autocapitalize="none"
+          autocomplete="off"
+        >
+      </div>
+      <div class="column col-2">
+        <input type="button" class="box" value="encode" onclick="document.getElementById('base64output').value = btoa(document.getElementById('base64input').value)">
+      </div>
+      <div class="column col-2">
+        <input type="button" class="box" value="decode" onclick="document.getElementById('base64output').value = atob(document.getElementById('base64input').value)">
+      </div>
+      <div class="column col-1">
+        <input class="box"
+          id="base64output"
+          name="base64output"
+          type="text"
+          placeholder="input"
+          autocorrect="off"
+          autocapitalize="none"
+          autocomplete="off"
+        >
+      </div>
     </div>
   </body>
 </html>

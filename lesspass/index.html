@@ -28,16 +28,28 @@
       <input class="box" id="pass" name="pass" type="text" placeholder="master password" autocorrect="off" autocapitalize="none" autocomplete="off">
     </div>
     <div class="column col-6">
-      <input type="button" class="box box-active" value="a-z">
+      <label for="low" class="box">
+        <input type="checkbox" id="low" name="low" checked>
+        <span>a-z</span>
+      </label>
     </div>
     <div class="column col-6">
-      <input type="button" class="box box-active" value="A-Z">
+      <label for="upp" class="box">
+        <input type="checkbox" id="upp" name="upp" checked>
+        <span>A-Z</span>
+      </label>
     </div>
     <div class="column col-6">
-      <input type="button" class="box box-active" value="0-9">
+      <label for="num" class="box">
+        <input type="checkbox" id="num" name="num" checked>
+        <span>0-9</span>
+      </label>
     </div>
     <div class="column col-6">
-      <input type="button" class="box box-active" value="%!@">
+      <label for="sym" class="box">
+        <input type="checkbox" id="sym" name="sym" checked>
+        <span>%!@</span>
+      </label>
     </div>
     <div class="column col-6">
       <input class="box" id="chars" name="chars" type="text" placeholder="length [16]" autocorrect="off" autocapitalize="none" autocomplete="off">

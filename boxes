@@ -12,6 +12,7 @@
 @ https://regex101.com | regex101
 @ http://unminify.com/ | unminify
 @ https://libraries.io | libraries
+@ https://haveibeenpwned.com/ | pwned
 
 
 # shopping
@@ -59,6 +60,9 @@
 @ https://kissanime.to | kissanime
 @ https://twitch.tv | twitch
 # music
+@ https://play.google.com/music/ | google play
+@ https://play.spotify.com/ | spotify
+@ https://music.amazon.com/home | amazon music
 @ http://www.shoutcast.com | shoutcast
 @ http://soundflush.com | soundflush
 @ http://radio.garden/live/schiedam/looktv/ | radiogarden
@@ -72,6 +76,19 @@
 @ https://www.youtube.com/user/jupiterbroadcasting/videos | jupiter
 @ https://www.youtube.com/user/EraserGaming/videos | a friend
 @ https://www.youtube.com/user/SignsOfKelani/ | kelani
+# jupiter
+@ http://www.jupiterbroadcasting.com/1030/jblive/ | live
+@ http://www.jupiterbroadcasting.com/ | home
+@ http://www.jupiterbroadcasting.com/release-calendar/ | calendar
+@ http://www.jupiterbroadcasting.com/show/unfilter/ | unfilter
+@ http://www.jupiterbroadcasting.com/show/linux-action-news/ | lan
+@ http://www.jupiterbroadcasting.com/show/linuxactionshow/ | las
+@ http://www.jupiterbroadcasting.com/show/bsdnow/ | bsdnow
+@ http://www.jupiterbroadcasting.com/show/coderradio/ | coderradio
+@ http://www.jupiterbroadcasting.com/show/linuxun/ | lun
+@ http://www.jupiterbroadcasting.com/show/error/ | usererror
+@ http://www.jupiterbroadcasting.com/show/techsnap/ | techsnap
+
 # gw2
 @ http://immortalnightmare.shivtr.com | XXX
 @ https://www.guildwars2.com/en/ | homepage
