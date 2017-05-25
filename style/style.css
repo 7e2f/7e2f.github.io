@@ -140,21 +140,14 @@ label {
     z-index:90;
     color: var(--link-normal);
 }
+
 input[type="radio"], input[type="checkbox"] {
   display: none;
   margin: 0px 0px 0px 0px;
-  /*opacity:0.011;*/
   z-index:100;
 }
-/*input[type="checkbox"] {
-  display: none;
-  margin: 0px 0px 0px 0px;
-  z-index:100;
-}*/
+
 
 input[type="radio"]:checked ~ *, input[type="checkbox"]:checked ~ * {
   color: var(--link-active);
 }
-/*input[type="checkbox"]:checked ~ * {
-  color: var(--link-active);
-}*/

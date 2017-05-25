@@ -1,5 +1,4 @@
 & 3 | column I
-
 ? temp
 
 # etc
@@ -16,7 +15,6 @@
 @ http://unminify.com/ | unminify
 @ https://libraries.io | libraries
 @ https://haveibeenpwned.com/ | pwned
-
 
 # shopping
 @ http://paychekplus.com | payroll
@@ -37,23 +35,27 @@
 @ base/ | base
 @ wip-cache/ | cache
 
+
 & 3 | column II
 # social
 @ https://gmail.com | gmail
 @ https://web.telegram.org | telegram
 @ https://www.facebook.com/ | facebook
 @ https://keybase.io/ | keybase
+
 # reddit
 @ https://www.reddit.com/r/Guildwars2 | guildwars2
 @ https://www.reddit.com/r/2007scape | 2007scape
 @ https://www.reddit.com/r/wow/ | wow
 @ https://www.reddit.com/r/opensource | opensource
 @ https://www.reddit.com/r/linux | linux
+
 # arch
 @ https://www.archlinux.org/ | home
 @ https://aur.archlinux.org/packages/ | aur
 @ https://bbs.archlinux.org/ | forum
 @ https://wiki.archlinux.org/ | wiki
+
 
 & 3 | column III
 # television
@@ -61,8 +63,9 @@
 @ https://netflix.com | netflix
 @ http://jupiterbroadcasting.com | jupiter
 @ http://rawranime.tv | rawranime
-@ https://kissanime.to | kissanime
+@ https://kissanime.ru | kissanime
 @ https://twitch.tv | twitch
+
 # music
 @ https://play.google.com/music/ | google play
 @ https://play.spotify.com/ | spotify
@@ -70,16 +73,19 @@
 @ http://www.shoutcast.com | shoutcast
 @ http://soundflush.com | soundflush
 @ http://radio.garden/live/schiedam/looktv/ | radiogarden
+
 # games
 @ http://oldschool.runescape.com | osrs
 @ https://www.guildwars2.com/en/ | gw2
 @ http://ppsspp.org | ppsspp
+
 # youtube
 @ https://www.youtube.com/user/WoodenPotatoes/videos | woodenpotatoes
 @ https://www.youtube.com/user/MightyTeapot/videos | mightyteapot
 @ https://www.youtube.com/user/jupiterbroadcasting/videos | jupiter
 @ https://www.youtube.com/user/EraserGaming/videos | a friend
 @ https://www.youtube.com/user/SignsOfKelani/ | kelani
+
 # jupiter
 @ http://www.jupiterbroadcasting.com/1030/jblive/ | live
 @ http://www.jupiterbroadcasting.com/ | home
@@ -101,10 +107,12 @@
 @ https://wiki.guildwars2.com/wiki/Main_Page | wiki
 @ https://gw2efficiency.com | gw2efficiency
 @ http://metabattle.com/wiki/MetaBattle_Wiki | metabattle
+
 # osrs
 @ http://oldschool.runescape.com | homepage
 @ http://2007.runescape.wikia.com/wiki/2007scape_Wiki | wiki
 @ https://rsbuddy.com/osbuddy | osbuddy
+
 # wow
 @ http://www.wowuction.com/us/whisperwind/alliance/ | auction house
 @ http://www.wowhead.com/ | wowhead
