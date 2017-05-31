@@ -82,7 +82,7 @@ a:hover,a:active { color: var(--link-active); }
   margin: 0px 0px 4px 0px;
   padding: 8px 8px 8px 8px;
   background: repeat;
-  background-size: 550px 250px;
+  /*background-size: 550px 250px;*/
   background-attachment: fixed;
   background-image: url('/style/fg.png');
   border: 2px solid var(--border-normal);
