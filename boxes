@@ -28,12 +28,8 @@
 @ reader/ | reader
 @ anime/ | anime
 @ lesspass/ | lesspass
-@ three/ | three
-@ vim/ | vim
-@ mpd/ | mpd
 @ tg/ | telegram
 @ base/ | base
-@ wip-cache/ | cache
 
 
 & 3 | column II
@@ -62,7 +58,7 @@
 @ https://youtube.com | youtube
 @ https://netflix.com | netflix
 @ http://jupiterbroadcasting.com | jupiter
-@ http://rawranime.tv | rawranime
+@ http://rawranime.tv | rawranime <\3
 @ https://kissanime.ru | kissanime
 @ https://twitch.tv | twitch
 

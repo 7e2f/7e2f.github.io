@@ -62,12 +62,12 @@ a:hover,a:active { color: var(--link-active); }
   height: auto;
 }
 
-.col-1 { width: 584; } /* 1:1 column */
-.col-2 { width: 290; } /* 2:1 column */
-.col-3 { width: 192; } /* 3:1 column */
-.col-4 { width: 143; } /* 4:1 column */
-.col-5 { width: 388; } /* 3:2 column */
-.col-6 { width: 094; } /* 6:1 column */
+.col-1 { width: 584px; } /* 1:1 column */
+.col-2 { width: 290px; } /* 2:1 column */
+.col-3 { width: 192px; } /* 3:1 column */
+.col-4 { width: 143px; } /* 4:1 column */
+.col-5 { width: 388px; } /* 3:2 column */
+.col-6 { width: 094px; } /* 6:1 column */
 
 @media only screen and (max-width: 592px) {
   [class*="col-"] { width: 290; }
@@ -93,9 +93,9 @@ a:hover,a:active { color: var(--link-active); }
 
 /* box headings & lists ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 h1 {
-  padding-bottom: 0;
-  margin-bottom: 2;
-  margin-top: 0;
+  padding-bottom: 0px;
+  margin-bottom: 2px;
+  margin-top: 0px;
   color: var(--heading);
 }
 
@@ -111,7 +111,7 @@ form {
 }
 
 input {
-  outline: 0;
+  outline: 0px;
   display: inline;
   background: none;
   border-width: 0px;
@@ -150,4 +150,16 @@ input[type="radio"], input[type="checkbox"] {
 
 input[type="radio"]:checked ~ *, input[type="checkbox"]:checked ~ * {
   color: var(--link-active);
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#navbar {
+  margin: 0px 0px 16px 0px;
 }

@@ -13,7 +13,6 @@
 
   <script type="text/javascript" src="/js/jquery-1.5.min.js"></script>
   <script type="text/javascript" src="/js/boxxy.js"></script>
-  <script type="text/javascript" src="/js/theme.js"></script>
 
   <script>
     function formReset(el) { el.value=''; };
@@ -25,6 +24,18 @@
 <body>
   <br><br>
   <div id="container">
+    <div id="navbar" class="clearfix">
+  <div class="column col-3">
+    <input class="box nav" type="button" onclick="location.href='/';" value="startpage" />
+  </div>
+  <div class="column col-3">
+    <input class="box nav" type="button" onclick="location.href='/lesspass';" value="lesspass" />
+  </div>
+  <div class="column col-3">
+    <input class="box nav" type="button" onclick="location.href='/reader';" value="reader" />
+  </div>
+</div>
+<div class="spacer"></div>
     <div class="column col-5">
       <form autocomplete="off" id="searchBox" target="_blank"
         action="https://google.com/search">
