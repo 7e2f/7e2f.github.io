@@ -2,6 +2,9 @@
 
 /* root ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 :root {
+  --bg-normal:      #000000;
+  --fg-normal:      #111111;
+  --fg-active:      #222222;
   --border-normal:  #1f1f1f;
   --border-active:  #3f3f3f;
   --heading:        #ffffff;
@@ -14,7 +17,7 @@
 html, body{
   margin: 0;
   padding: 0;
-  background: url('/style/bg.png');
+  background-color: var(--bg-normal);
   background-attachment: fixed;
   color: var(--text);
   overflow: scroll;
@@ -80,16 +83,15 @@ a:hover,a:active { color: var(--link-active); }
   -moz-box-flex: 1;
   -webkit-box-flex: 1;
   margin: 0px 0px 4px 0px;
-  padding: 8px 8px 8px 8px;
+  padding: 6px 8px 6px 8px;
   background: repeat;
   /*background-size: 550px 250px;*/
   background-attachment: fixed;
-  background-image: url('/style/fg.png');
-  border: 2px solid var(--border-normal);
+  background-color: var(--fg-normal);
   outline:0;
 }
 /*,.box:focus*/
-.box:hover,.box-active { border: 2px solid var(--border-active); }
+.box:hover,.box-active { background-color: var(--fg-active); }
 
 /* box headings & lists ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 h1 {
