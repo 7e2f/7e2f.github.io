@@ -164,3 +164,13 @@ input[type="radio"]:checked ~ *, input[type="checkbox"]:checked ~ * {
 #navbar {
   margin: 0px 0px 16px 0px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 4px;
+    border: 1px solid #333333;
+}
