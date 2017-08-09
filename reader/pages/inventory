@@ -1,6 +1,7 @@
 
-inv | num | est
+item | desc | est
 ---: | :--- | :---:
+ - | | 
 8090-093 | Apple Juice | ?
 510-132 | White Milk | ?
 5083-021 | Choc Milk | ?
@@ -9,12 +10,13 @@ inv | num | est
 2373-015 | Diced Apples | ?
 6842-063 | Bottled Water | ?
 758-006 | Lemon Slices | ?
-- | - | -
+ - | | 
 3719-036 | Italian | ?
 827-039 | French | ?
 8788-006 | Southwest | ?
 1960-081 | Balsamic | ?
 8295-018 | Ranch | ?
+ - | | 
 47-065 | Sugar Packets | 150
 2380-000 | Raisin Mix | 25
 3222-000 | Coffee Packs | ?
@@ -25,9 +27,11 @@ inv | num | est
 57-004 | Tea Bags | 50
 23-117 | Cones | ?
 123-072 | Kid Cones | ?
+ - | | 
 555-072 | Bulk Sugar | ?
 4306-003 | Bulk Splenda | ?
 4645-000 | Bulk Equal | ?
+ - | | 
 408-144 | Barbecue | ?
 2861-036 | Ranch | 35
 ? | Honey Mustard | 35
@@ -37,3 +41,4 @@ inv | num | est
 ? | Buffalo | 35
 ? | Sriracha | 35
 ? | Honey | 70
+ - | |
