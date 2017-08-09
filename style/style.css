@@ -2,9 +2,6 @@
 
 /* root ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 :root {
-  --bg-normal:      #000000;
-  --fg-normal:      #111111;
-  --fg-active:      #222222;
   --border-normal:  #1f1f1f;
   --border-active:  #3f3f3f;
   --heading:        #ffffff;
@@ -17,7 +14,7 @@
 html, body{
   margin: 0;
   padding: 0;
-  background-color: var(--bg-normal);
+  background: url('/style/bg.png');
   background-attachment: fixed;
   color: var(--text);
   overflow: scroll;
@@ -83,15 +80,16 @@ a:hover,a:active { color: var(--link-active); }
   -moz-box-flex: 1;
   -webkit-box-flex: 1;
   margin: 0px 0px 4px 0px;
-  padding: 6px 8px 6px 8px;
+  padding: 8px 8px 8px 8px;
   background: repeat;
   /*background-size: 550px 250px;*/
   background-attachment: fixed;
-  background-color: var(--fg-normal);
+  background-image: url('/style/fg.png');
+  border: 2px solid var(--border-normal);
   outline:0;
 }
 /*,.box:focus*/
-.box:hover,.box-active { background-color: var(--fg-active); }
+.box:hover,.box-active { border: 2px solid var(--border-active); }
 
 /* box headings & lists ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 h1 {
@@ -137,6 +135,7 @@ label {
     right:0;
     bottom:0;
     padding:5px;
+    border:1px solid #CCC;
     cursor:pointer;
     z-index:90;
     color: var(--link-normal);
@@ -172,5 +171,9 @@ table {
 
 table, th, td {
     padding: 4px 8px 4px 8px;
-    border: 1px solid #333333;
+    border: 1px solid var(--border-normal);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
