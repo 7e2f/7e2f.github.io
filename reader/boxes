@@ -7,3 +7,4 @@
 @ reader.html?page=scrollbars | scrollbars
 @ reader.html?page=null | null
 @ reader.html?page=ba | ba
+@ reader.html?page=inventory | inventory
