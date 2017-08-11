@@ -178,11 +178,11 @@ tr:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.tablebox {
+/*.tablebox {
     padding: 0px;
     border: 1px solid var(--border-normal);
-}
+}*/
 
-.tablebox:hover {
+/*.tablebox:hover {
     border: 1px solid var(--border-normal);
-}
+}*/
