@@ -1,7 +1,7 @@
 
 item | desc | est
 ---: | :--- | :---:
- - | | 
+ - | |
 8090-093 | Apple Juice | -
 510-132 | White Milk | -
 5083-021 | Choc Milk | -
@@ -10,13 +10,13 @@ item | desc | est
 2373-015 | Diced Apples | ?
 6842-063 | Bottled Water | -
 758-006 | Lemon Slices | ?
- - | | 
+ - | |
 3719-036 | Italian | 12
 827-039 | French | 12
 8788-006 | Southwest | 12
 1960-081 | Balsamic | 12
 8295-018 | Ranch | 12
- - | | 
+ - | |
 47-065 | Sugar Packets | 150
 2380-000 | Raisin Mix | 25
 3222-000 | Coffee Packs | 15
@@ -27,18 +27,137 @@ item | desc | est
 57-004 | Tea Bags | 50
 23-117 | Cones | -
 123-072 | Kid Cones | -
- - | | 
+ - | |
 555-072 | Bulk Sugar | -
 4306-003 | Bulk Splenda | -
 4645-000 | Bulk Equal | -
- - | | 
+ - | |
 408-144 | Barbecue | 35
 2861-036 | Ranch | 35
-? | Honey Mustard | 35
-? | Hot Mustard | 35
-? | Habanero | 35
-? | Sweet & Sour | 35
-? | Buffalo | 35
-? | Sriracha | 35
-? | Honey | 70
+8731-039 | Honey Mustard | 35
+410-065 | Hot Mustard | 35
+10990-000 | Habanero | 35
+409-120 | Sweet & Sour | 35
+7812-045 | Buffalo | 35
+13204-000 | Sriracha | 35
+411-000 | Honey | 70
  - | |
+43-000 | Salt | ?
+44-000 | Pepper | ?
+45-237 | Ketchup | ?
+46-048 | Mustard | ?
+419-008 | Mayo | ?
+? | Light Mayo | ?
+37-021 | Grape Jelly | 100
+38-045 | Strawberry Jelly | 100
+2816-015 | Mild Picante | 100
+3399-015 | Hot Picante | 100
+33-079 | Syrup | ?
+ - | |
+29-009 | Bulk Salt | -
+ - | |
+3210-045 | Apple Pies | ?
+993-009 | Blueberry Pies | ?
+2913-033 | McGriddles | ?
+2813-081 | Biscuits | ?
+2649-016 | Cookies | ?
+4-849 | Fries | 6
+70-189 | Hashbrowns | ?
+ - | |
+19-008 | Coke | ?
+42-002 | Diet Coke | 5
+486-002 | Dr Pepper | 5
+5776-002 | Diet Dr Pepper | 5
+21-086 | Orange Fanta | 5
+168-002 | Sprite | 5
+4053-003 | Mello Yello | 5
+8427-000 | Lemonade | 2.5
+10726-000 | Sweetener | 5
+ - | |
+7075-045 | Chocolate Drizzle | -
+255-012 | Caramel Drizzle | -
+ - | |
+5116-063 | Espresso Beans | -
+1945-015 | OJ Concentrate | -
+5370-015 | Creamer | -
+ - | |
+2601-025 | Vanilla Syrup | -
+7778-021 | SF Vanilla Syrup | -
+3569-051 | Chocolate Syrup | -
+7421-042 | Caramel Syrup | -
+931-003 | Choc Caramel Syrup | -
+ - | |
+11904-003 | MM Cherry | -
+12929-003 | MM Fruit Punch | -
+13108-003 | MM Orange | -
+ - | |
+5906-009 | Mocha Base | -
+6008-009 | Caramel Base | -
+13222-003 | Slushie Base | -
+8759-009 | Smoothie Yogurt | -
+2896-051 | Strawberry Base | -
+4393-012 | Mango Base | -
+ - | |
+65-074 | Sundae Fudge | -
+69-080 | Sundae Caramel | -
+ - | |
+60-114 | Vanilla Mix | -
+61-135 | Chocolate Mix | -
+62-171 | Strawberry Mix | -
+ - | |
+3470-015 | M&M Mixin | -
+3449-015 | Rolo Mixin | -
+3471-060 | Oreo Mixin | -
+5474-015 | Reese's Mixin | -
+ - | |
+80477-000 | CO₂ | 800
+2589-240 | Oil | -
+ - | |
+35-076 | Butter Pats | ?
+2760-012 | Creamer Cups | ?
+406025 | Whipped Cream | ?
+ - | |
+5255-060 | Whole Milk Bag | -
+8740-078 | Nonfat Milk Bag | -
+ - | |
+1-570 | Regular Buns | ?
+2-558 | Sesame Buns | ?
+3-423 | Mac Buns | ?
+5916-027 | Artisan Rolls | ?
+14-189 | Muffins | 12
+3114-087 | Tortillas | ?
+2599-018 | Bagels | ?
+ - | |
+8498-018 | Folded Eggs | ?
+16-001 | Round Eggs | ?
+507-009 | Bacon | 8
+3952-058 | Liquid Egg | -
+6860-000 | Liquid Egg White | -
+5358-013 | Hotcakes | 12
+2963-007 | Cinnamelts | -
+12197-000 | Butter | -
+13-285 | American Cheese | 40
+4737-004 | White Cheddar | 40
+695-012 | Cheddar Jack | -
+18-022 | Shredded Lettuce | -
+8986-015 | Leaf Lettuce | -
+15-032 | Canadian Ham | ?
+28-075 | Slivered Onions | -
+6159-057 | Sliced Tomato | ?
+ - | |
+5-086 | 10:1 Meat | 25
+6-330 | 4:1 Meat | ?
+3282-033 | Grilled Chicken | ?
+11671-015 | Crispy Chicken | ?
+1637-095 | McChicken | ?
+71-126 | Sausage | ?
+1000-027 | Steak | ?
+407-756 | Nuggets | 24
+8-044 | Fish | ?
+ - | |
+55-080 | Mac Sauce | -
+9-000 | Tartar Sauce | -
+1116-309 | Mayo? | -
+4002-016 | Mayo? | -
+10979-009 | Cooking Butter | -
+63-053 | Pickles | -
