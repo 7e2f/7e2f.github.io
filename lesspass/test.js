@@ -1,10 +1,10 @@
 function lesspassSubmit() {
   var passwordForm = $('#lesspass').serializeArray();
-  const site = passwordForm[0].value;
-  const login = passwordForm[1].value;
-  const masterPassword = passwordForm[2].value;
-  var chars = (passwordForm[7].value > 0) ? passwordForm[7].value : 16;
-  var count = (passwordForm[8].value > 0) ? passwordForm[8].value : 1;
+  const site = document.getElementById("site").value;
+  const login = document.getElementById("user").value;
+  const masterPassword = document.getElementById("pass").value;
+  var chars = (document.getElementById("chars").value > 0) ? document.getElementById("chars").value : 16;
+  var count = (document.getElementById("count").value > 0) ? document.getElementById("count").value : 1;
   const passwordProfile = {
     lowercase: document.getElementById("low").checked,
     uppercase: document.getElementById("upp").checked,
@@ -14,9 +14,13 @@ function lesspassSubmit() {
     counter: count,
     version: 2
   };
-  LessPass.generatePassword(site, login, masterPassword, passwordProfile).then(function(generatedPassword) {
+  LessPass.generatePassword(
+    site,
+    login,
+    masterPassword,
+    passwordProfile
+  ).then(function(generatedPassword) {
     $('#generated').val(generatedPassword);
-    // alert(generatedPassword);
   });
 
 };
