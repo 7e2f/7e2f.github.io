@@ -80,7 +80,7 @@ item | desc | est
  - | |
 35-076 | Butter Pats | ?
 2760-012 | Creamer Cups | 100
-406025 | Whipped Cream | ?
+406-025 | Whipped Cream | ?
  - | |
 5255-060 | Whole Milk Bag | -
 8740-078 | Nonfat Milk Bag | -
@@ -153,8 +153,8 @@ item | desc | est
  - | |
 19-008 | Coke | ?
 42-002 | Diet Coke | 5
-486-003 | Dr Pepper | 5
-5776-002 | Diet Dr Pepper | 5
+486-002 | Dr Pepper | 5
+5776-003 | Diet Dr Pepper | 5
 21-086 | Orange Fanta | 5
 168-002 | Sprite | 5
 4053-003 | Mello Yello | 5
