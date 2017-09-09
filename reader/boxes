@@ -9,3 +9,5 @@
 @ reader.html?page=ba | ba
 @ reader.html?page=inventory | inventory
 @ reader.html?page=waste | waste
+@ reader.html?page=checklist | checklist
+
