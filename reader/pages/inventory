@@ -3,13 +3,15 @@ item | desc | est
 ---: | :--- | :---:
  - | |
 8090-093 | Apple Juice | -
-510-132 | White Milk | -
+510-189 | White Milk | -
 5083-021 | Choc Milk | -
+5083-072 | Choc Milk | -
 10877-024 | Gogurt | ?
 8549-026 | Apple Slices | ?
 2373-015 | Diced Apples | ?
 6842-063 | Bottled Water | -
 758-006 | Lemon Slices | ?
+3355-015 | Cream Cheese | ?
  - | |
 3719-036 | Italian | 12
 827-039 | French | 12
@@ -49,7 +51,8 @@ item | desc | est
 7812-045 | Buffalo | 35
 13204-000 | Sriracha | 35
 411-000 | Honey | 70
- - | |
+411-012 | Honey | 70
+- | |
 555-072 | Bulk Sugar | -
 4306-003 | Bulk Splenda | -
 4645-000 | Bulk Equal | -
@@ -62,9 +65,13 @@ item | desc | est
 255-012 | Caramel Drizzle | -
  - | |
 2601-025 | Vanilla Syrup | -
+2601-011 | Vanilla Syrup | -
 7778-021 | SF Vanilla Syrup | -
+7778-030 | SF Vanilla Syrup | -
 3569-051 | Chocolate Syrup | -
+3569-093 | Chocolate Syrup | -
 7421-042 | Caramel Syrup | -
+7421-079 | Caramel Syrup | -
 931-003 | Choc Caramel Syrup | -
  - | |
 11904-003 | MM Cherry | -
@@ -114,7 +121,8 @@ item | desc | est
 14-189 | Muffins | 12
 3114-087 | Tortillas | ?
 2599-018 | Bagels | ?
- - | |
+2599-060 | Bagels | ?
+- | |
 8498-018 | Folded Eggs | ?
 16-001 | Round Eggs | ?
 507-009 | Bacon | 8
@@ -130,6 +138,7 @@ item | desc | est
 8986-015 | Leaf Lettuce | -
 15-032 | Canadian Ham | ?
 28-075 | Slivered Onions | -
+28-246 | Slivered Onions | -
 6159-057 | Sliced Tomato | ?
  - | |
 5-086 | 10:1 Meat | 25
