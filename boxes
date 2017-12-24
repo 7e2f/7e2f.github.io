@@ -10,14 +10,14 @@
 -@ http://prismjs.com/ | prism
 @ https://www.ourlounge.com | ourlounge
 
-# tools
-@ https://regex101.com | regex101
-@ http://unminify.com/ | unminify
-@ https://libraries.io | libraries
-@ https://haveibeenpwned.com/ | pwned
-@ http://prismjs.com/ | prism
-@ http://colorhexa.com/ | hexa
-@ http://cleancss.com/ | cleancss
+-# tools
+-@ https://regex101.com | regex101
+-@ http://unminify.com/ | unminify
+-@ https://libraries.io | libraries
+-@ https://haveibeenpwned.com/ | pwned
+-@ http://prismjs.com/ | prism
+-@ http://colorhexa.com/ | hexa
+-@ http://cleancss.com/ | cleancss
 
 # shopping
 @ http://paychekplus.com | payroll
@@ -25,15 +25,15 @@
 -@ https://wish.com | wish
 -@ http://dhgate.com | dhgate
 -@ http://crateandbarrel.com | c&b
-@ https://kittensplaypen.net | kpp
+-@ https://kittensplaypen.net | kpp
 
 # internal
 @ reader/ | reader
 @ anime/ | anime
 @ lesspass/ | lesspass
-@ tg/ | telegram
-@ base/ | base
-@ horo/ | horo
+-@ tg/ | telegram
+-@ base/ | base
+-@ horo/ | horo
 
 
 & 3 | column II
@@ -41,7 +41,7 @@
 @ https://gmail.com | gmail
 @ https://web.telegram.org | telegram
 @ https://www.facebook.com/ | facebook
-@ https://keybase.io/ | keybase
+-@ https://keybase.io/ | keybase
 
 # reddit
 @ https://www.reddit.com/r/Guildwars2 | guildwars2
@@ -50,11 +50,11 @@
 @ https://www.reddit.com/r/opensource | opensource
 @ https://www.reddit.com/r/linux | linux
 
-# arch
-@ https://www.archlinux.org/ | home
-@ https://aur.archlinux.org/packages/ | aur
-@ https://bbs.archlinux.org/ | forum
-@ https://wiki.archlinux.org/ | wiki
+-# arch
+-@ https://www.archlinux.org/ | home
+-@ https://aur.archlinux.org/packages/ | aur
+-@ https://bbs.archlinux.org/ | forum
+-@ https://wiki.archlinux.org/ | wiki
 
 
 & 3 | column III
@@ -62,24 +62,24 @@
 @ https://youtube.com | youtube
 @ https://netflix.com | netflix
 @ http://jupiterbroadcasting.com | jupiter
-@ http://rawranime.tv | rawranime <\3
+-@ http://rawranime.tv | rawranime <\3
 @ https://kissanime.ru | kissanime
-@ https://twitch.tv | twitch
+-@ https://twitch.tv | twitch
 @ https://www.amazon.com/Amazon-Video/b?node=2858778011 | amazon video
 
-# music
-@ https://play.google.com/music/ | google play
-@ https://play.spotify.com/ | spotify
-@ https://music.amazon.com/home | amazon music
-@ http://www.shoutcast.com | shoutcast
-@ http://soundflush.com | soundflush
-@ http://radio.garden/live/schiedam/looktv/ | radiogarden
-@ https://mynoise.net/ | mynoise
+-# music
+-@ https://play.google.com/music/ | google play
+-@ https://play.spotify.com/ | spotify
+-@ https://music.amazon.com/home | amazon music
+-@ http://www.shoutcast.com | shoutcast
+-@ http://soundflush.com | soundflush
+-@ http://radio.garden/live/schiedam/looktv/ | radiogarden
+-@ https://mynoise.net/ | mynoise
 
-# games
-@ http://oldschool.runescape.com | osrs
-@ https://www.guildwars2.com/en/ | gw2
-@ http://ppsspp.org | ppsspp
+-# games
+-@ http://oldschool.runescape.com | osrs
+-@ https://www.guildwars2.com/en/ | gw2
+-@ http://ppsspp.org | ppsspp
 
 # youtube
 @ https://www.youtube.com/user/WoodenPotatoes/videos | woodenpotatoes
@@ -87,35 +87,23 @@
 @ https://www.youtube.com/user/jupiterbroadcasting/videos | jupiter
 @ https://www.youtube.com/user/EraserGaming/videos | a friend
 @ https://www.youtube.com/user/SignsOfKelani/ | kelani
+@ https://www.youtube.com/user/BryanLunduke | bryanlunduke
 
-# jupiter
-@ http://www.jupiterbroadcasting.com/1030/jblive/ | live
-@ http://www.jupiterbroadcasting.com/ | home
-@ http://www.jupiterbroadcasting.com/release-calendar/ | calendar
-@ http://www.jupiterbroadcasting.com/show/unfilter/ | unfilter
-@ http://www.jupiterbroadcasting.com/show/linux-action-news/ | lan
-@ http://www.jupiterbroadcasting.com/show/linuxactionshow/ | las
-@ http://www.jupiterbroadcasting.com/show/bsdnow/ | bsdnow
-@ http://www.jupiterbroadcasting.com/show/coderradio/ | coderradio
-@ http://www.jupiterbroadcasting.com/show/linuxun/ | lun
-@ http://www.jupiterbroadcasting.com/show/error/ | usererror
-@ http://www.jupiterbroadcasting.com/show/techsnap/ | techsnap
+-# gw2
+-@ http://immortalnightmare.shivtr.com | XXX
+-@ https://www.guildwars2.com/en/ | homepage
+-@ https://www.guildwars2.com/en/news/ | news
+-@ https://forum-en.guildwars2.com/forum | forums
+-@ https://wiki.guildwars2.com/wiki/Main_Page | wiki
+-@ https://gw2efficiency.com | gw2efficiency
+-@ http://metabattle.com/wiki/MetaBattle_Wiki | metabattle
 
-# gw2
-@ http://immortalnightmare.shivtr.com | XXX
-@ https://www.guildwars2.com/en/ | homepage
-@ https://www.guildwars2.com/en/news/ | news
-@ https://forum-en.guildwars2.com/forum | forums
-@ https://wiki.guildwars2.com/wiki/Main_Page | wiki
-@ https://gw2efficiency.com | gw2efficiency
-@ http://metabattle.com/wiki/MetaBattle_Wiki | metabattle
+-# osrs
+-@ http://oldschool.runescape.com | homepage
+-@ http://2007.runescape.wikia.com/wiki/2007scape_Wiki | wiki
+-@ https://rsbuddy.com/osbuddy | osbuddy
 
-# osrs
-@ http://oldschool.runescape.com | homepage
-@ http://2007.runescape.wikia.com/wiki/2007scape_Wiki | wiki
-@ https://rsbuddy.com/osbuddy | osbuddy
-
-# wow
-@ http://www.wowuction.com/us/whisperwind/alliance/ | auction house
-@ http://www.wowhead.com/ | wowhead
-@ https://www.reddit.com/r/wow/ | reddit
+-# wow
+-@ http://www.wowuction.com/us/whisperwind/alliance/ | auction house
+-@ http://www.wowhead.com/ | wowhead
+-@ https://www.reddit.com/r/wow/ | reddit
