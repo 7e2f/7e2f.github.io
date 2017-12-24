@@ -4,11 +4,10 @@
 # etc
 @ https://lesspass.com | lesspass
 @ https://ting.com | ting
-@ https://godaddy.com | godaddy
+-@ https://godaddy.com | godaddy
 @ http://github.com | github
 @ https://digitalocean.com | digitalocean
--@ http://prismjs.com/ | prism
-@ https://www.ourlounge.com | ourlounge
+-@ https://www.ourlounge.com | ourlounge
 
 -# tools
 -@ https://regex101.com | regex101
@@ -18,10 +17,13 @@
 -@ http://prismjs.com/ | prism
 -@ http://colorhexa.com/ | hexa
 -@ http://cleancss.com/ | cleancss
+-@ http://prismjs.com/ | prism
+
 
 # shopping
 @ http://paychekplus.com | payroll
 @ https://amazon.com | amazon
+@ https://www.paycor.com | paycor
 -@ https://wish.com | wish
 -@ http://dhgate.com | dhgate
 -@ http://crateandbarrel.com | c&b
